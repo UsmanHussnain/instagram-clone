@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title -->
+    <title>Instagram</title>
+    <!-- Metadata -->
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="George W. Park">
+    <meta name="description" content="This project demonstrates how CSS grid (with flexbox and float fallback) can be used to re-create the layout of an Instagram profile page.">
+    
+    
+    <!-- External CSS Files -->
+    <link rel="shortcut icon" href="{% static 'assets1/favicon.svg' %}" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets1/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets2/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets3/css/reset.css' %}">
+    <link rel="stylesheet" href="{% static 'assets3/css/styles.css' %}">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+
+</head>
+
+    {% block content %}
+    
+    {% endblock %}
+    
+    <script src="{% static 'assets1/script.js' %}" defer></script>
+    <script src="https://kit.fontawesome.com/fc1e235b2e.js"></script>
+</html>
